@@ -8,8 +8,6 @@ import LinksPage from './pages/LinksPage';
 import GamesPage from './pages/GamesPage'; 
 import Navbar from './components/Navbar';
 import { FloppyDiskIcon } from './components/icons';
-// Import the Analytics component from Vercel
-import { Analytics } from "@vercel/analytics/next";
 
 const App: React.FC = () => {
   return (
@@ -34,8 +32,6 @@ const App: React.FC = () => {
           </div>
         </footer>
       </div>
-      {/* Add the Vercel Analytics component for usage tracking */}
-      <Analytics />
     </Router>
   );
 };
