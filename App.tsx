@@ -10,6 +10,8 @@ import Navbar from './components/Navbar';
 import { FloppyDiskIcon } from './components/icons';
 // Import the Analytics component for React applications
 import { Analytics } from "@vercel/analytics/react";
+// Import the SpeedInsights component for React applications
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const App: React.FC = () => {
   return (
@@ -36,6 +38,8 @@ const App: React.FC = () => {
       </div>
       {/* Add the Vercel Analytics component for usage tracking in React */}
       <Analytics />
+      {/* Add the Vercel SpeedInsights component for performance monitoring in React */}
+      <SpeedInsights />
     </Router>
   );
 };
